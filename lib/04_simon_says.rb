@@ -1,18 +1,18 @@
-def echo(hi)
-	return hi
+def echo(message)
+	return message
 end
 
-def shout(hi)
-	return hi.upcase
+def shout(message)
+	return message.upcase
 end
 
-def repeat(hi, num=2)
-	return ((hi + " ") * num).chop
-	#return [hi] * num * " "
+def repeat(message, num=2)
+	return ((message + " ") * num).chop
+	#return [message] * num * " "
 end
 
-def start_of_word(hi, num)
-	return hi[0..num -1]
+def start_of_word(word, num)
+	return word[0..num -1]
 end
 
 def first_word(string)
